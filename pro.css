@@ -158,26 +158,28 @@
     left: 170%;
     transform: rotate(5deg);
 }
-/* --- THIS CODE ONLY RUNS ON PHONES --- */
+/* This code only runs on phones */
 @media (max-width: 600px) {
-    .main_box {
-        background-position: center; /* Centers the studio lights on mobile */
-    }
-
     .floating-img {
-        width: 180px; /* Makes photos smaller so they fit */
+        width: 160px; /* Makes the photos smaller so you can see the background */
     }
 
     .img-left {
-        top: 20%;
-        left: 5%; /* Positions left photo for narrow screens */
+        top: 25%;
+        left: 5%; /* Moves the first photo to the left */
     }
 
     .img-right {
-        top: 28%;
-        left: 35%; /* Positions right photo for narrow screens */
+        top: 30%;
+        left: 25%; /* Slightly overlaps the first photo */
+    }
+
+    .sidebar_menu {
+        z-index: 100; /* Ensures your menu slides OVER the photos, not behind them */
     }
 }
+}
+
 
 
 
