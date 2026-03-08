@@ -158,6 +158,26 @@
     left: 170%;
     transform: rotate(5deg);
 }
- 
+/* --- THIS CODE ONLY RUNS ON PHONES --- */
+@media (max-width: 600px) {
+    .main_box {
+        background-position: center; /* Centers the studio lights on mobile */
+    }
+
+    .floating-img {
+        width: 180px; /* Makes photos smaller so they fit */
+    }
+
+    .img-left {
+        top: 20%;
+        left: 5%; /* Positions left photo for narrow screens */
+    }
+
+    .img-right {
+        top: 28%;
+        left: 35%; /* Positions right photo for narrow screens */
+    }
+}
+
 
 
